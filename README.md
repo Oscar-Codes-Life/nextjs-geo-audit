@@ -4,7 +4,7 @@ A Claude Code skill that runs technical SEO + GEO (Generative Engine Optimizatio
 
 ## Installation
 
-### Option 1: Install as a Skill (recommended)
+### Install as a Skill
 
 Clone directly into your Claude Code skills directory:
 
@@ -21,26 +21,6 @@ git clone https://github.com/Oscar-Codes-Life/nextjs-geo-audit.git .claude/skill
 ```
 
 The skill loads automatically — no config changes needed. Claude Code will trigger it when you ask about SEO, GEO, or AI discoverability.
-
-### Option 2: Install via Plugin Marketplace
-
-Add the repository as a plugin marketplace in Claude Code:
-
-```
-/plugin marketplace add Oscar-Codes-Life/nextjs-geo-audit
-```
-
-Then install the skill:
-
-```
-/plugin install nextjs-geo-audit
-```
-
-Reload to activate:
-
-```
-/reload-plugins
-```
 
 ## What It Does
 
